@@ -1,7 +1,6 @@
 test = {   'name': 'q2_1',
     'points': 1,
-    'suites': [   {   'cases': [   {'code': '>>> isinstance(near_twenty, (int, float))\nTrue', 'hidden': False, 'locked': False},
-                                   {'code': '>>> near_twenty != math.e**math.pi\nTrue', 'hidden': False, 'locked': False},
+    'suites': [   {   'cases': [   {'code': '>>> near_twenty != math.e**math.pi\nTrue', 'hidden': False, 'locked': False},
                                    {'code': '>>> near_twenty == math.e**math.pi-math.pi\nTrue', 'hidden': False, 'locked': False}],
                       'scored': True,
                       'setup': '',
