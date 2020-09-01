@@ -1,0 +1,12 @@
+test = {   'name': 'q5_3',
+    'points': 1,
+    'suites': [   {   'cases': [   {'code': '>>> isinstance(precalculus_relative_change, (int, float))\nTrue', 'hidden': False, 'locked': False},
+                                   {'code': '>>> isinstance(calculus_relative_change, (int, float))\nTrue', 'hidden': False, 'locked': False},
+                                   {'code': '>>> isinstance(multi_relative_change, (int, float))\nTrue', 'hidden': False, 'locked': False},
+                                   {'code': '>>> np.isclose( precalculus_relative_change, 61.111111111111114 )\nTrue', 'hidden': True, 'locked': False},
+                                   {'code': '>>> np.isclose( calculus_relative_change, 143.05555555555557 )\nTrue', 'hidden': True, 'locked': False},
+                                   {'code': '>>> np.isclose( multi_relative_change, 194.44444444444443 )\nTrue', 'hidden': True, 'locked': False}],
+                      'scored': True,
+                      'setup': '',
+                      'teardown': '',
+                      'type': 'doctest'}]}
